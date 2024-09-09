@@ -2,34 +2,37 @@
     .nbr{
         padding-left: 20px;
         padding-right: 20px;
+        justify-content: space-evenly;
     }
     #head {
-        font-size: 0.5em;
+        font-size: 1em;
         max-height: fit-content;
-        margin-top: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     #talk {
-        width: 200px;
+        width: 100px;
         margin-left: 30px;
         padding-top: 5px;
         padding-bottom: 5px;
         text-align: center;
         border-radius: 40px;
-        font-size: small;
+        font-size: 0.8em;
     }
     #note{
-        font-size: x-small;
+        font-size: small;
         text-align: center;
         margin-top: 10px;
     }
     #greet{
-        font-size: x-small;
+        font-size: small;
         text-align: center;
         margin-top: 10px;
     }
     #reset {
         font-weight: 200;
-        padding-right: 75px;
+        padding-right: 100px;
+        padding-left: px;
     }
     .di {
         color: #0cc05a;
