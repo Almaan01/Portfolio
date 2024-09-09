@@ -1,0 +1,45 @@
+@media (max-width: 375px){
+    .nbr{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #head {
+        font-size: 0.5em;
+        max-height: fit-content;
+        margin-top: 10px;
+    }
+    #talk {
+        width: 200px;
+        margin-left: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 40px;
+        font-size: small;
+    }
+    #note{
+        font-size: x-small;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #greet{
+        font-size: x-small;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #reset {
+        font-weight: 200;
+        padding-right: 75px;
+    }
+    .di {
+        color: #0cc05a;
+        background-color: #0da34e1a;
+        border: 1px solid #0da34e80;
+        border-radius: 50vw;
+        margin-top: .1rem;
+        margin-left: .3rem;
+        margin-right: .3rem;
+        padding: .1rem 0.55rem .1rem;
+        display: inline-block;
+    }
+}

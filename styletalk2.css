@@ -1,0 +1,154 @@
+@media (max-width: 768px){
+    /* Page 1 */
+    .nbr{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #head {
+        font-size: 1.2em;
+        max-height: fit-content;
+    }
+    #talk {
+        width: 100px;
+        margin-left: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 40px;
+        font-size: small;
+    }
+    #note{
+        font-size: small;
+        text-align: center;
+    }
+    #greet{
+        font-size: small;
+        text-align: center;
+    }
+    #reset {
+        font-weight: 200;
+        padding-right: 75px;
+    }
+    .nbr a:hover {
+        color: #0da34e;
+    }
+
+    /* page 2 */
+
+
+    .P2{
+        width: 100%;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+    .left{
+        margin: 15px;
+        margin-bottom: 10px;
+        padding: 20px;
+        width: 85%;
+        height: 45%;
+        flex-grow: 1;
+        border-radius: 20px;
+    }
+    .left p{
+        padding-bottom: 5px;
+    }
+    .right{
+        padding: 20px;
+        font-size: 0.7rem;
+        margin: 15px;
+        margin-top: 5px;
+        width: 85%;
+        height: 55%;
+        flex-grow: 1;
+        border-radius: 20px;
+    }
+    .di2 {
+        color: white;
+        background-color: #383737;
+        border: 1px solid white;
+        border-radius: 50vw;
+        margin-top: .1rem;
+        margin-left: .3rem;
+        margin-right: .3rem;
+        padding: .2rem 1.1rem .2rem;
+        display: inline-block;
+    }
+    .left h2{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Page 3 */
+
+    .Page3{
+        flex-direction: column;
+        height: 100%;
+        font-size: 0.6rem;
+    }
+    .main{
+        width: 100%;
+        flex-grow: 1;
+        justify-content: center;
+    }
+    .d1{
+        height: 340px;
+        width: 300px;
+        margin: 10px;
+    }
+    .subar{
+        height: 20%;
+        text-align: center;
+    }
+    .slbar{
+        height: 80%;
+        padding: 10px 10px;
+        font-size: small;
+        font-weight: 300;
+    }
+    
+    /* Page 4 */
+
+    .Page4{
+        flex-direction: column;
+        height: 100%;
+        max-width: 100%;
+        font-size: 0.6rem;
+    }
+    .main2{
+        width: 100%;
+        flex-grow: 1;
+        justify-content: center;
+    }
+    .d2{
+        height: 250px;
+        width: 300px;
+        margin: 10px;
+    }
+
+    /* Page 5 */
+
+    .P5{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contact-left{
+        width: 90%;
+        height: 70%;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .contact-right{
+        width: 90%;
+        height: 30%;
+        font-size: 1rem;
+        padding:30px;
+    }
+}
